@@ -141,7 +141,7 @@ class ObjectEditor extends COM_Module
 
 		GetGame().CopyToClipboard( toCopy );
 
-		// // Message(  "Copied to clipboard" );
+		//Message(  "Copied to clipboard" );
 	}
 
 	void SaveScene()
@@ -212,8 +212,8 @@ class ObjectEditor extends COM_Module
 
 		}
 
-		// Message( "Saved objects to latest.json");
-		JsonFileLoader< SceneSaveST >.JsonSaveFile( BASE_SCENE_DIR + "\\" + "latest.json", scene );
+		//Message( "Saved objects to latestDeerisle.json");
+		JsonFileLoader< SceneSaveST >.JsonSaveFile( BASE_SCENE_DIR + "\\" + "latestDeerIsle.json", scene );
 
 	}
 
@@ -222,12 +222,12 @@ class ObjectEditor extends COM_Module
 
 		ref SceneSaveST scene = new SceneSaveST();
 
-		JsonFileLoader<SceneSaveST>.JsonLoadFile( BASE_SCENE_DIR + "\\" + "latest.json", scene );
+		JsonFileLoader<SceneSaveST>.JsonLoadFile( BASE_SCENE_DIR + "\\" + "latestDeerIsle.json", scene );
 
 		foreach( auto param : scene.m_SceneObjects )
 		{
 
-			Object object = GetGame().CreateObject( param.param1, param.param2, false, false );
+        Object object = GetGame().CreateObjectEx( param.param1, param.param2, ECE_CREATEPHYSICS | ECE_NOSURFACEALIGN ); //Fix For Object Drops //Chubby
 			object.SetOrientation( param.param3 );
 
 			m_Objects.Insert( object );
