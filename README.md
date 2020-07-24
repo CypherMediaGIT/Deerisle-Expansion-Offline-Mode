@@ -1,8 +1,8 @@
 # DayZCommunityOfflineMode DeerIsle Expansion Edition
 
 **Thank you to Arkensor for his Mod DayZCommunityOffline Mode**
-**For without his Mod this would not exsit** 
-**Also Thank you to the Expansion Team For without Their Mod this would not exsit**
+**For without his Mod this would not exist** 
+**Also Thank you to the Expansion Team For without Their Mod this would not exist**
 
 The DayZ Community Offline Mode DeerIsle Expansion Edition offers the ability, to explore the world of DayZ in a singleplayer environment on the Livonia Map. While this mode does not represent the actual DayZ gameplay it offers other possibilites for developers, content creators and players who do want to experiment around but not loose all their progress from online.
 
