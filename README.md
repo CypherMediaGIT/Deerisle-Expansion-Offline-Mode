@@ -12,4 +12,4 @@ This is UNOFFICIAL, so don't blame the DayZ development team if this is not work
 
 # THIS IS CURRENTLY A WORK IN PROGRESS, ONLY USE IF YOU KNOW WHAT YOU ARE DOING... ANY RELEASE AT THIS TIME IS A PRE-RELEASE AND SHOULD BE TREATED AS SUCH, WE ARE IN NO WAY RESPONSIBLE FOR ANY DAMAGE THIS MAY CAUSE YOUR MACHINE OR GAME.
 
- # Pre-Release Version 0.5 Downlod: [Link](https://github.com/CypherMediaGIT/Deerisle-Expansion-Offline-Mode/releases/download/0.5.1/ExpansionCOM.DeerIsle.zip) zip archive.             
+ # Pre-Release Version 0.5.1 Downlod: [Link](https://github.com/CypherMediaGIT/Deerisle-Expansion-Offline-Mode/releases/download/0.5.1/ExpansionCOM.DeerIsle.zip) zip archive.             
