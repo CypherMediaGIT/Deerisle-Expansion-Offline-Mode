@@ -34,7 +34,6 @@ Now you now start the script ```DayZ/Missions/ExpansionCOM.DeerIsle/DayZCommunit
 Or add the following start parameter to your game: ```-mission=.\Missions\ExpansionCOM.DeerIsle```
 
 Mods can be added to this build, Simply add the name in the .bat file but please make sure you follow the mod structure in the current line or they wont work;
-Example: "-mod=!Workshop\@DeerIsle;!Workshop\@DayZ-Expansion;!Workshop\@DayZ-Expansion-Licensed;!Workshop\@CF;!Workshop\@Community-Online-Tools;!Workshop\@YOUR NEW MOD NAME;!Workshop\@ANOTHER MOD NAME"
 
 To unstinstall this mod, simple delete all downloaded files, and rename your .disabled folders back to their original name.   
 You might delete your whole ```Missions``` folder and validate your game files via steam to get the original DayZ files back.
