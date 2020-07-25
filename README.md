@@ -21,7 +21,7 @@ After you placed down all objects you want to add, press ```SAVE``` in the Objec
 To export the objects simply press the ```EXPORT``` button. Now all placed objects will be exported and the code you need will be copied to your clipboard, which you can now paste into your cutom File.
 
 # Installation:
-To Download ```DeerIsle``` please visit the steam store https://steamcommunity.com/sharedfiles/filedetails/?id=1602372402 and click on Subscribe and wait for steam to download the Workshop content, Once installed Run DayZ via Steam by clicking play on the DayZ page from within your game libary, when the Steam DayZ Launcher screen shows, Click on Mods on the menu to the left, Find ```DeerIsle``` in your mods List and click the drop down box arrow to the right of the DeerIsle line, Click the 3 dotted line to ```"Display More Options"``` and select "Open Folder in Windows Explorer", Click "I understand" in the next window, now copy ```@DeerIsle``` folder, press up one level in your current folder and paste the ```@DeerIsle``` into the DayZ folder that you should now be in ```C:\Program Files (x86)\Steam\steamapps\common\DayZ```
+To Download ```DeerIsle``` please visit the steam store https://steamcommunity.com/sharedfiles/filedetails/?id=1602372402 and click on Subscribe and wait for steam to download the Workshop content, Once installed Run DayZ via Steam by clicking play on the DayZ page from within your game libary, when the Steam DayZ Launcher screen shows, Click on Mods on the menu to the left and wait for DeerIsle to download, All mods are read directly from the !Workshop forlder now for expansion so you dont need to copy and paste anymore.
 
 
 Download [this]https://github.com/CypherMediaGIT/Deerisle-Expansion-Offline-Mode/releases/download/1.0/ExpansionCOM.DeerIsle.zip) zip archive.  
@@ -32,6 +32,9 @@ Even though this is not directly bannable by Battleye, just to make sure: Rename
 
 Now you now start the script ```DayZ/Missions/ExpansionCOM.DeerIsle/DayZCommunityOfflineMode``` to start the game. You will be loaded directly into the offline mode.  
 Or add the following start parameter to your game: ```-mission=.\Missions\ExpansionCOM.DeerIsle```
+
+Mods can be added to this build, Simply add the name in the .bat file but please make sure you follow the mod structure in the current line or they wont work;
+Example: "-mod=!Workshop\@DeerIsle;!Workshop\@DayZ-Expansion;!Workshop\@DayZ-Expansion-Licensed;!Workshop\@CF;!Workshop\@Community-Online-Tools;!Workshop\@YOUR NEW MOD NAME;!Workshop\@ANOTHER MOD NAME"
 
 To unstinstall this mod, simple delete all downloaded files, and rename your .disabled folders back to their original name.   
 You might delete your whole ```Missions``` folder and validate your game files via steam to get the original DayZ files back.
